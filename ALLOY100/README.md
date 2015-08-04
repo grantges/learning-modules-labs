@@ -11,4 +11,4 @@ Create a basic Two-tab Alloy app.  Tab 1 should be named **First Tab** and Tab 2
 
 ## Resources
 
-* [Finalized Project](http://github.com/appcelerator-training/learning-module-labs.zip)
+* [Finalized Project Repository](https://github.com/appcelerator-training/learning-modules-labs/tree/master/ALLOY100/ALLOY100)
