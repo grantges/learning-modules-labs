@@ -1,8 +1,0 @@
-
-".container" : {
-  
-}
-
-"#greeting[platform=android]":{
-	color: "#000"
-}

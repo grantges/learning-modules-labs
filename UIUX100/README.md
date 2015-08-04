@@ -60,6 +60,14 @@ By the end of this lab you'll be able better understand and leverage the similar
 
 ### Custom Android Material Theme
 
+AppCompat built-in themes
+
+```
+<style name="LightDarkBar" parent="Theme.AppCompat.Light.DarkActionBar"/>
+<style name="Light" parent="Theme.AppCompat.Light"/>
+<style name="Dark" parent="Theme.AppCompat"/>
+```
+
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <resources>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><ti:app xmlns:ti="http://ti.appcelerator.org">
-	<id>__PROJECT_ID__</id>
-	<name>__PROJECT_NAME__</name>
+	<id>com.alloy101</id>
+	<name>ALLOY101</name>
 	<guid></guid>
 	<version>1.0</version>
 	<publisher>not specified</publisher>
@@ -11,6 +11,7 @@
 	<fullscreen>false</fullscreen>
 	<navbar-hidden>false</navbar-hidden>
 	<analytics>true</analytics>
+	<guid>b2679e3a-ce59-4aa6-be58-5071cdc14f63</guid>
 	<property name="ti.ui.defaultunit" type="string">dp</property>
 	<ios>
 		<plist>
@@ -33,14 +34,13 @@
 				<key>UIStatusBarHidden</key>
 				<false/>
 				<key>UIStatusBarStyle</key>
-				<string>UIStatusBarStyleDefault</string>
+				<string>UIStatusBarStyleLightContent</string>
 			</dict>
 		</plist>
 	</ios>
 	<android xmlns:android="http://schemas.android.com/apk/res/android">
-		<manifest>
-	        <application android:theme="@style/Light"/>
-	        <!-- <application android:theme="@style/Dark"/> -->
+	    <manifest>
+	        <application android:theme="@style/appcelerator"/>
 	        <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="22"/>
 	    </manifest>
 	</android>
@@ -56,4 +56,5 @@
 	<modules/>
 <plugins><plugin version="1.0">ti.alloy</plugin>
 </plugins>
+<sdk-version>4.1.0.GA</sdk-version>
 </ti:app>
