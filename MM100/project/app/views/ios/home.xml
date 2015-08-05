@@ -1,0 +1,7 @@
+<Alloy>
+	<NavigationWindow platform="ios" id="home">
+		<Window class="container">
+			<TableView id="list" onClick="rowclick"/>
+		</Window>
+	</NavigationWindow>
+</Alloy>

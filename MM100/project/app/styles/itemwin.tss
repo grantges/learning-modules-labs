@@ -1,0 +1,80 @@
+
+".container" : {
+	backgroundColor : "#fff"
+}
+
+"#banner[platform=android]" :{
+	top : 0,
+	width : Ti.UI.FILL,
+	height: 200,
+	image : "http://patrickhicks.org/wordpress/wp-content/uploads/2015/02/radio-microphone.jpg"
+}
+
+"#banner[platform=ios]" :{
+	top : 0,
+	width : Ti.UI.FILL,
+	height: 180,
+	image : "http://patrickhicks.org/wordpress/wp-content/uploads/2015/02/radio-microphone.jpg"
+}
+
+
+"#description[platform=ios]" : {
+	top : 0,
+	left: 5,
+	right: 5,
+	font: {
+		fontSize : 14
+	}
+}
+
+"#description[platform=android]" : {
+	top : 0,
+	left: 5,
+	right: 5,
+	font: {
+		fontSize : 18
+	}
+}
+
+
+".scrollview[platform=ios]" : {
+	top : 180,
+	bottom: 0,
+	width: Ti.UI.FILL
+}
+
+".scrollview[platform=android]" : {
+	top : 200,
+	bottom: 0,
+	width: Ti.UI.FILL
+}
+
+".roundedbutton[platform=ios]" : {
+	 backgroundColor : "red",
+	 height : 60,
+	 width : 60,
+	 top : 110,
+	 right : 10,
+	 borderRadius : 30
+}
+
+".roundedbutton[platform=android]" : {
+	 backgroundColor : "red",
+	 height : 60,
+	 width : 60,
+	 top : 125,
+	 right : 10,
+	 borderRadius : 30
+}
+
+"#playstop[platform=ios]" : {
+	image  : "/rightarrow.png",
+	height : "30",
+	width : "30"
+}
+
+"#playstop[platform=android]" : {
+	image  : "/rightarrow.png",
+	height : "30",
+	width : "30"
+}

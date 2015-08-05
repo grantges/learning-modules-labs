@@ -1,0 +1,15 @@
+<Alloy>
+	<Window id="itemwin" class="container" onClose="doClose">
+		<ActionBar platform="android" displayHomeAsUp="true" onHomeIconItemSelected="closeWin"/>
+		
+		<ImageView id="banner"/>
+
+		<ScrollView class="scrollview">
+			<Label id="description"/>
+		</ScrollView>
+		
+		<View class="roundedbutton">
+			<ImageView id="playstop" onClick="togglePlayStop"/>
+		</View>
+	</Window>
+</Alloy>

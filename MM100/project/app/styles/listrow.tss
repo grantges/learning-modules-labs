@@ -1,0 +1,23 @@
+"TableViewRow" : {
+	height: 60
+}
+
+"#title[platform=ios]" : {
+	width : Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	font: {
+		fontSize: 16
+	},
+	left: 5,
+	color : "#000"
+}
+
+"#title[platform=android]" : {
+	width : Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	font: {
+		fontSize: 18
+	},
+	left: 5,
+	color : "#000"
+}

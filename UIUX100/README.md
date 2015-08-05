@@ -20,6 +20,8 @@ By the end of this lab you'll be able better understand and leverage the similar
 <string>UIStatusBarStyleLightContent</string>
 ```
 
+*[http://docs.appcelerator.com/platform/latest/#!/guide/tiapp.xml_and_timodule.xml_Reference-section-29004921_tiapp.xmlandtimodule.xmlReference-UIStatusBarStyle](http://docs.appcelerator.com/platform/latest/#!/guide/tiapp.xml_and_timodule.xml_Reference-section-29004921_tiapp.xmlandtimodule.xmlReference-UIStatusBarStyle)*
+
 ### Global **app.tss** (add more stuff?)
 
 ```
