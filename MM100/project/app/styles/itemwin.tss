@@ -23,7 +23,7 @@
 	left: 5,
 	right: 5,
 	font: {
-		fontSize : 14
+		fontSize : 18
 	}
 }
 
