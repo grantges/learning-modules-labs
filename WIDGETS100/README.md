@@ -4,14 +4,16 @@ Here you'll find code examples that demonstrate the concepts learned in the WIDG
 
 ## Samples
 
+* Ti.MarkdownViewer
+	* Widgetized version of the example used in WEBVIEW100
+
 * PDF Widget
 	* A widget that wraps the native code needed to natively open a PDF file on iOS and Android
 
 * SocialShare Widget
 	* A widget that wraps the native code needed to natively share text and photos with social networks
 
-* SP.Signature
-	* A widget that provides a cross-platform signature box
+
 
 ## Screenshot
 
