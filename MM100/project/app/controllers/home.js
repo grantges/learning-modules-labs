@@ -2,7 +2,7 @@ var url = "http://feeds.twit.tv/floss.xml";
 
 var listdata=[];
 
-require('parserss').parse(url,function(data){
+require('lib/parserss').parse(url,function(data){
 	if (typeof data === 'object'){
 		data.forEach(function(item){
 			var row=Alloy.createController('listrow',item).getView();
