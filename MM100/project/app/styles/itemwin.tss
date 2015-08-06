@@ -19,18 +19,18 @@
 
 
 "#description[platform=ios]" : {
-	top : 0,
-	left: 5,
-	right: 5,
+	top : 5,
+	left: 15,
+	right: 15,
 	font: {
 		fontSize : 18
 	}
 }
 
 "#description[platform=android]" : {
-	top : 0,
-	left: 5,
-	right: 5,
+	top : 5,
+	left: 15,
+	right: 15,
 	font: {
 		fontSize : 18
 	}
