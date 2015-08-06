@@ -1,0 +1,6 @@
+<Alloy>
+    <Window onLoad="doLoad" layout="vertical" backgroundColor="#fff">
+        <Widget id="sigCapture" src="sp.signature" />
+        <Button onClick="doSave">Save</Button>
+    </Window>
+</Alloy>
