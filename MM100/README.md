@@ -1,14 +1,10 @@
 # MM100
 
-In this Lab Excercise you will apply the concepts learned in the MM100 Module.
+In this sample app demonstrates the concepts learned in the MM100 Module.
 
-## Objective
-Loren ipsum
+## Description
+This app is a simple **Podcast Player**.  The app implements a NavigationWindow on iOS and native windows on Android.  Includes a **parserss** module that provides an **experience based API** to grab the whole podcast feed, but only return the properties needed for the app.
 
-
-## Cheat Sheet
-
-* Con
 
 ## Screenshot
 

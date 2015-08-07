@@ -1,0 +1,6 @@
+<Alloy>
+	<Window backgroundColor="#fff">
+		<!-- default text color on iOS is black - on Android it's white -->
+		<Label color="#000">Single Window App</Label>
+	</Window>
+</Alloy>
