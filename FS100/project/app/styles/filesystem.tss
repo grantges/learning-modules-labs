@@ -1,0 +1,30 @@
+"#tf1" :{
+	left : 10,
+	right: 10,
+	top : 10,
+	height 	: 40,
+	borderStyle : Titanium.UI.INPUT_BORDERSTYLE_ROUNDED,
+	autocorrect : false,
+	color : "#000"
+} 
+
+"#tf2" :{
+	left : 10,
+	right: 10,
+	top : 10,
+	height 	: 40,
+	borderStyle : Titanium.UI.INPUT_BORDERSTYLE_ROUNDED,
+	autocorrect : false,
+	color : "#000"
+} 
+
+"#lbl" : {
+	left: 10,
+	right: 10,
+	color : "#000"
+}
+
+".container" :{
+	title: "FileSystem",
+	layout : "vertical"
+}

@@ -1,0 +1,7 @@
+<Alloy>
+	<Window class="container">
+		<TextField id="tf1" onReturn="tf1Return" onChange="tf1Change"/>
+		<TextField id="tf2" onReturn="tf2Return" onChange="tf2Change"/>
+		<Button onClick="onClick">Save</Button>
+	</Window>
+</Alloy>

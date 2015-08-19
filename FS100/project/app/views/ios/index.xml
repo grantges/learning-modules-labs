@@ -1,0 +1,5 @@
+<Alloy>
+	<NavigationWindow>
+		<Require src="filesystem" />
+	</NavigationWindow>
+</Alloy>
