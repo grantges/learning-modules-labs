@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Cliff House",
+    "address": "1090 Point Lobos Ave., San Francisco CA 94121",
+    "phone": "",
+    "lat": "37.778414",
+    "lon": "-122.513979"
+  },
+  {
+    "name": "House of Prime Rib",
+    "address": "1906 Van Ness Ave., San Francisco CA 94109",
+    "phone": "415.885.4605",
+    "lat": "37.793393",
+    "lon": "-122.422630"
+  },
+  {
+    "name": "Kokkari Estiatorio",
+    "address": "200 Jackson St., San Francisco CA 94111",
+    "phone": "415.981.0983 ",
+    "lat": "37.796984",
+    "lon": "-122.399721"
+  },
+  {
+    "name": "Slanted Door",
+    "address": "1 Ferry Building #270, San Francisco CA 94111",
+    "phone": "415.861.8032",
+    "lat": "37.795963",
+    "lon": "-122.392631"
+  },
+  {
+    "name": "Scala's Bistro",
+    "address": "432 Powell St., San Francisco CA 94102",
+    "phone": "415.395.8555",
+    "lat": "37.788824",
+    "lon": "-122.408310"
+  },
+  {
+    "name": "Foreign Cinema",
+    "address": "2534 Mission St., San Francisco CA 94110",
+    "phone": "415.648.7600 ",
+    "lat": "37.756415",
+    "lon": "-122.419180"
+  },
+  {
+    "name": "Alioto's",
+    "address": "#8 Fishermans Wharf, San Francisco CA 94133",
+    "phone": "415.673.0183",
+    "lat": "37.808719",
+    "lon": "-122.416111"
+  },
+  {
+    "name": "E&O Asian Kitchen",
+    "address": "314 Sutter St., San Francisco CA 94108",
+    "phone": "415.693.0303",
+    "lat": "37.789854",
+    "lon": "-122.405932"
+  },
+  {
+    "name": "Franciscan Crab Restaurant",
+    "address": "Pier 43 1/2, San Francisco CA 94133",
+    "phone": "415.362.7733 ",
+    "lat": "37.809382",
+    "lon": "-122.414465"
+  }
+]

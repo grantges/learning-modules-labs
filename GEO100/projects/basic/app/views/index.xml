@@ -1,0 +1,6 @@
+<Alloy>
+	<Window class="container">
+		<Button id="button" onClick="doClick" enabled="false">Waiting for location</Button>
+		<Label bottom="5" id="msg">...</Label>
+	</Window>
+</Alloy>

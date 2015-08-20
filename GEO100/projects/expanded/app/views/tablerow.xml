@@ -1,0 +1,9 @@
+<Alloy>
+	<TableViewRow class="row">
+		<View class="rowContainer">
+			<Label id="name">Sol Foods</Label>
+			<Label id="address">12345 St W 2nd Ave, San Francisco</Label>
+			<Label id="distance">33 miles</Label>
+		</View>
+	</TableViewRow>
+</Alloy>
