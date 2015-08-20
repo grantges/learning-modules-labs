@@ -5,9 +5,12 @@ notes[0] = 'Together Through Life is the 33rd studio album by Bob Dylan, release
 notes[1] = "Rumors of the album, reported in Rolling Stone magazine, came as a surprise, with no official press release until March 16, 2009 ‚Äî less than two months before the album's release date.";
 notes[2] = "In a conversation with music journalist Bill Flanagan, published on Bob Dylan's official website, Flanagan suggested a similarity of the new record to the sound of Chess Records and Sun Records, which Dylan acknowledged as an effect of 'the way the instruments were played.'";
 
-images[0] = '/images/dylan.png';
-images[1] = '/images/dylan1.png';
-images[2] = '/images/dylan2.png';
+images[0] = 'images/dylan.png';
+images[1] = 'images/dylan1.png';
+images[2] = 'images/dylan2.png';
+
+// Set default
+$.linernotes.text = notes[Math.floor(Math.random()*3)];
 
 // handle the swipe event -- change the liner notes 
 // to a random member of the notes array
@@ -30,13 +33,13 @@ Ti.Gesture.addEventListener('orientationchange', function(e) {
 		Ti.API.info('landscape');
 		
 		$.artist.applyProperties({
-			top:240, left: 250
+			top:50, left: 200
 		});
 		$.coverart.applyProperties({
 			top: null, left: 10
 		});
 		$.linernotes.applyProperties({
-			left: 260, bottom: 20, width: 200
+			left: 260, bottom: 100, width: 200
 		});
 	} else if(e.source.isPortrait()){
 		Ti.API.info('portrait');
@@ -48,7 +51,7 @@ Ti.Gesture.addEventListener('orientationchange', function(e) {
 			top: 10, left: null
 		});
 		$.linernotes.applyProperties({
-			left: null, bottom: 10, width: 240
+			left: null, bottom: 50, width: 240
 		});
 	}
 });
