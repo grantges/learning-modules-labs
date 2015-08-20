@@ -19,13 +19,15 @@ Adding this code will tell your app to ask the user for authorization when the a
 ![](assets/basic_auth.png)
 
 
-### Handle common exceptions
+### Handling common exceptions
 When using location services, there are some exceptions your app should handle in order to provide the proper user feedback.  Properties to test for are:
 
 
-```Titanium.Geolocation.locationServicesEnabled```
-```Titanium.Geolocation.locationServicesAuthorization```
-```Titanium.Geolocation.AUTHORIZATION_RESTRICTED```
+```
+Titanium.Geolocation.locationServicesEnabled
+Titanium.Geolocation.locationServicesAuthorization
+Titanium.Geolocation.AUTHORIZATION_RESTRICTED
+```
 
 These will give you the necessary data to show message boxes in case any exception is triggered.
 
@@ -36,7 +38,9 @@ These will give you the necessary data to show message boxes in case any excepti
 
 Every time you query the device's location, the coordinates will be cached.  From here on out, querying location will return these cached values.  To make sure you always get the most up-to-date location information, you need to add an event listener to the **location** event of the **Titanium.Geolocation object**.  
 
-```Titanium.Geolocation.addEventListener('location',function(e){})```
+```
+Titanium.Geolocation.addEventListener('location',function(e){})
+```
 
 This event is automatically fired when the device detects a change in location.
 
