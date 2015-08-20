@@ -2,6 +2,8 @@
 
 In this section, you will learn how to monitor for and solve memory leaks in your apps. The processes for monitoring memory usage varies by platform. You'll learn separately how to perform this feat on iOS and Android.
 
+![Screenshot](https://monosnap.com/file/Mjs4sVuuwgLb3XEFv1sTTs4W9dFKjG.png)
+
 ## Contents
 
 Memory leaks occur when your app allocates memory but doesn't release it. JavaScript garbage collects objects, meaning it removes them from memory, when no references to them remain in your application. Leaks occur when unintended or overlooked references to objects remain in scope. In this lab, you'll examine an app that has a memory leak deliberately included. You'll apply various fixed and check your work until you have eliminated the leak.
