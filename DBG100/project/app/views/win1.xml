@@ -1,0 +1,6 @@
+<Alloy>
+	<Window id="win1" title="Memory Leaks">
+		<Switch onChange="toggle" top="40" />
+		<Button id="openBtn">Open leaky window</Button>
+	</Window>
+</Alloy>

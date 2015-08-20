@@ -1,0 +1,7 @@
+<Alloy>
+	<Window id="win2">
+		<Button id='closeBtn'>Close</Button>
+		<Label id="someLabel">Some text</Label>
+		<TableView id='tblView'></TableView>
+	</Window>
+</Alloy>
