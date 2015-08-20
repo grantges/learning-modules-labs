@@ -1,0 +1,43 @@
+".container": {
+	backgroundColor:"white"
+}
+
+"#artist":{
+	text: 'Bob Dylan',
+	width: 320,
+	height: Ti.UI.SIZE,
+	top: 260,
+	textAlign: 'center',
+	color: 'black'
+}
+
+"#artist[platform=ios]": {
+	font: {fontSize: 22, fontFamily: 'AmericanTypewriter-Bold', fontWeight: 'bold'},
+}
+
+"#artist[platform=android]": {
+	font: {fontSize: 22, fontFamily: 'serif', fontWeight: 'bold'},
+}
+
+"#coverart":{
+	width: 240,
+	height: 240,
+	top: 10,
+	image: '/dylan.png'
+}
+
+"#linernotes":{
+	width: 240,
+	height: Ti.UI.SIZE,
+	bottom: 50,
+	color: 'black',
+	text: ''
+}
+
+"#linernotes[platform=ios]":{
+	font: {fontSize: 10, fontFamily: 'AmericanTypewriter'}
+}
+
+"#linernotes[platform=android]":{
+	font: {fontSize: 10, fontFamily: 'serif'}
+}
