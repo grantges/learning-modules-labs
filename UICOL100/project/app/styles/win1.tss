@@ -1,0 +1,48 @@
+"#win1": {
+	layout:'vertical'
+}
+
+"#scrolly": {
+	layout: "vertical"
+}
+
+"TextField": {
+	top: 40, width: '85%', height: '40dp',
+	borderColor:'#ff0000',
+	borderWidth:3,
+	borderRadius:5,
+	paddingLeft:10,
+	bubbleParent:false
+}
+
+"#normal":{
+	keyboardType: Ti.UI.KEYBOARD_DEFAULT,
+	returnKeyType: Ti.UI.RETURNKEY_DEFAULT,
+	autocorrect: true,
+	autocapitalization: Ti.UI.TEXT_AUTOCAPITALIZATION_WORDS
+}
+
+"#numeric":{
+	keyboardType: Ti.UI.KEYBOARD_NUMBERS_PUNCTUATION,
+	returnKeyType: Ti.UI.RETURNKEY_DONE
+}
+
+"#web":{
+	keyboardType: Ti.UI.KEYBOARD_URL,
+	returnKeyType: Ti.UI.RETURNKEY_GO,
+	hintText: 'url'
+}
+
+"#email":{
+	keyboardType: Ti.UI.KEYBOARD_EMAIL,
+	returnKeyType: Ti.UI.RETURNKEY_SEND,
+	hintText: 'email'
+}
+
+"#password":{
+	keyboardType: Ti.UI.KEYBOARD_DEFAULT,
+	hintText: 'password',
+	passwordMask: true,
+	autocorrect: false,
+	autocapitalization: Ti.UI.TEXT_AUTOCAPITALIZATION_NONE
+}

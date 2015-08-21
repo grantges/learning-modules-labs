@@ -1,0 +1,13 @@
+<Alloy>
+	<Window id="win1" title="UICOL100">
+	    
+        <ScrollView id="scrolly">
+			<TextField id="normal"/>
+			<TextField id="numeric"/>
+			<TextField id="web"/>
+			<TextField id="email"/>
+			<TextField id="password"/>
+		</ScrollView>
+
+	</Window>
+</Alloy>
