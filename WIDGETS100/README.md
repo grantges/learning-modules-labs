@@ -1,6 +1,6 @@
 # WIDGETS100
 
-In this lab, you will create a simple widget that displays a checkbox.
+In this lab, you will create a simple widget that displays a checkbox.  The completed lab is located in  [projects/WIDGETS100](https://github.com/appcelerator-training/learning-modules-labs/tree/master/WIDGETS100/projects/WIDGETS100)
 
 ![Screenshot](https://monosnap.com/file/pUcsB7BfwSpJLVTOicelYjzxtyFweX.png)
 
