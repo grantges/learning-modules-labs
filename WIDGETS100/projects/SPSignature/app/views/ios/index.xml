@@ -1,0 +1,5 @@
+<Alloy>
+	<NavigationWindow id="main" platform="ios">
+		<Require src="win1" />
+	</NavigationWindow>
+</Alloy>

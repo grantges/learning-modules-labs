@@ -1,0 +1,5 @@
+<Alloy>
+	<Window class="container" title="WIDGETS100">
+		<Widget id="checkbox" src="checkbox" color="red" message="Click to check/uncheck" left="30" />
+	</Window>
+</Alloy>

@@ -1,0 +1,6 @@
+<Alloy>
+	<View id="checkbox" onClick="doClick">
+		<Label id="chk"></Label>
+		<Label id="lbl">Text beside the checkbox</Label>
+	</View>
+</Alloy>
