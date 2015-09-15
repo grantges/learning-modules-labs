@@ -62,13 +62,13 @@ By the end of this lab you'll be able better understand and leverage the similar
 
 ### Custom Android Material Theme
 
-AppCompat built-in themes
+Built-in themes: `AppCompat`
 
-```
-<style name="LightDarkBar" parent="Theme.AppCompat.Light.DarkActionBar"/>
-<style name="Light" parent="Theme.AppCompat.Light"/>
-<style name="Dark" parent="Theme.AppCompat"/>
-```
+1. `<style name="LightDarkBar" parent="Theme.AppCompat.Light.DarkActionBar"/>`
+2. `<style name="Light" parent="Theme.AppCompat.Light"/>`
+3. `<style name="Dark" parent="Theme.AppCompat"/>`
+
+#### `custom_theme.xml`
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -83,6 +83,8 @@ AppCompat built-in themes
 </resources>
 
 ```
+
+#### `tiapp.xml`
 
 ```
 <android xmlns:android="http://schemas.android.com/apk/res/android">
