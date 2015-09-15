@@ -1,10 +1,10 @@
 # ALLOY101
 
-In this Lab Excercise you will apply the concepts learned in the ALLOY101 Module.
+In this Lab Exercise you will apply the concepts learned in the UIUX100 Module and create a cross-platform application using the "bootstrap" architecture strategy.
 
 ## Objective
-Create an Alloy app skeleton that leverages Alloy's platform directives at the XML and TSS level, as well as platform-speific folders and platform conditionals at the controller level.  The app should be able to run on iPhone/iPod Touch, iPad, Android Phone and Android tablet, and be able to display a platform-specific greeting, while reusing your views, styles and controllers.
 
+Create an Alloy app skeleton that leverages Alloy's platform directives at the XML and TSS level, as well as platform-specific folders and platform conditionals at the controller level.  The app should be able to run on iPhone/iPod Touch, iPad, Android Phone and Android tablet, and be able to display a platform-specific greeting, while reusing your views, styles and controllers.
 
 ## Cheat Sheet
 
