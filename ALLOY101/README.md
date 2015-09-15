@@ -24,6 +24,15 @@ Create an Alloy app skeleton that leverages Alloy's platform directives at the X
 
 ![](assets/screens.png)
 
+## Import the Project using the CLI
+
+Create a new Alloy project, then overwrite the app folder.
+ 
+```
+appc new -t titanium -n ALLOY101 -i com.domain.alloy101
+cp -r app ~/workspace/ALLOY101/.
+```
+
 ## Resources
 
 * [Finalized Project Repository](https://github.com/appcelerator-training/learning-modules-labs/tree/master/ALLOY100/ALLOY100)
