@@ -1,6 +1,6 @@
 exports.getCurrentPosition = function(args){
 	// will return cached data
-    var outData={};
+    var outData={}; 
 
     Titanium.Geolocation.accuracy = Titanium.Geolocation.ACCURACY_BEST;
     Titanium.Geolocation.distanceFilter = 10;
