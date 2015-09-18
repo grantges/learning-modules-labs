@@ -30,6 +30,15 @@ Build your app for the simulator/emulator.
 
 When you tap in a field, the appropriate keyboard type should be used, as should the correct return button type. Test the autocorrection and autocapitalization settings on the fields. Also, input to the password field should be obscured. The fields should remain visible when the soft keyboard is displayed.
 
+## Create a new app
+
+```
+appc new -t titanium -n UICOL100 -i com.appcelerator.uicol100 --no-services
+```
+
+Tip: To run the finished app, you can copy the `project/app` and `project/platform` folder to the newly created app and run it.
+
+
 ## Summary
 
 In this lab, you implemented various keyboard and text field options that can ease data entry on the small screen. You also implemented a switch, slider, and picker.
