@@ -15,7 +15,7 @@ This app is a simple **Podcast Player**.  The app implements a NavigationWindow 
 *Create project*
 
 ```
-appc new -t titanium -n IOS100 -i com.appcelerator.ios100 --no-services
+appc new -t titanium -n MM100 -i com.appcelerator.mm100 --no-services
 ```
 
 
