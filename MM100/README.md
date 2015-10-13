@@ -10,6 +10,16 @@ This app is a simple **Podcast Player**.  The app implements a NavigationWindow 
 
 ![](assets/screens.png)
 
+## To Install
+
+*Create project*
+
+```
+appc new -t titanium -n IOS100 -i com.appcelerator.ios100 --no-services
+```
+
+
 ## Resources
 
 * [Finalized Project Repository](https://github.com/appcelerator-training/learning-modules-labs/tree/master/ALLOY100/ALLOY100)
+
