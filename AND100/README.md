@@ -3,6 +3,7 @@
 
 In this lab you will use Android Intent to open a PDF file shipped with your app.
 
+![Screenshot](https://monosnap.com/file/XYt8P7jBEMfMHVe663d5SCVyDtmf08.png)
 
 
 ## Contents
